@@ -1,0 +1,29 @@
+{
+    "name": "adamb/instpupils",
+    "description": "Provide the management functions for instructors to manage their pupils",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Binnersley",
+            "email": "abinnersley@gmail.com"
+        }
+    ],
+    "require": {
+        "adamb/database": "^1.2",
+        "adamb/mycustomcountylist": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PupilManagement\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PupilManagement\\Tests\\": "tests/"
+        }
+    }
+}
